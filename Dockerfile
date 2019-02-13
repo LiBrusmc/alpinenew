@@ -1,3 +1,3 @@
 FROM alpine:latest
-RUN apk add --no-cache mysql-client posgresql-client
-ENTRYPOINT ["posgresql"]
+RUN apk add --no-cache mysql-client
+ENTRYPOINT ["mysql"]
